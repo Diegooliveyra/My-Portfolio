@@ -7,8 +7,7 @@ export const HeroStyled = styled.section`
   background: ${(props) =>
     props.theme.mode === 'dark'
       ? `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${bg_hero})`
-      : `linear-gradient(rgba(200, 200, 200, 0.9), rgba(0, 0, 0, 0.7)), url(${bg_hero})`};
-  /* background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), */
+      : `linear-gradient(rgba(200, 200, 200, 0.8), rgba(0, 0, 0, 0.4)), url(${bg_hero})`};
   background-size: cover;
 
   background-position: center center;

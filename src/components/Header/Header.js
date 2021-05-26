@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from '../../styles/GlobalStyles';
+import Menu from './Menu/Menu';
 import { HeaderStyled } from './style';
 
 const Header = ({ theme, setTheme }) => {
@@ -13,7 +14,7 @@ const Header = ({ theme, setTheme }) => {
       <HeaderStyled>
         <nav>
           <button onClick={handleChangeTheme}>Change Theme</button>
-          <span>MENU</span>
+          <Menu theme={theme} setTheme={setTheme} />
         </nav>
       </HeaderStyled>
     </Container>
