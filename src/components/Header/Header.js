@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container } from '../../styles/GlobalStyles';
 import Menu from './Menu/Menu';
-import { HeaderStyled } from './style';
+import { HeaderStyled, ButtonStyle } from './style';
+import { ReactComponent as SunIcon } from '../../Assets/sun.svg';
+import { ReactComponent as MoonIcon } from '../../Assets/moon.svg';
 
 const Header = ({ theme, setTheme }) => {
   function handleChangeTheme() {
@@ -13,7 +15,9 @@ const Header = ({ theme, setTheme }) => {
     <Container>
       <HeaderStyled>
         <nav>
-          <button onClick={handleChangeTheme}>Change Theme</button>
+          <ButtonStyle onClick={handleChangeTheme}>
+            {theme.mode === 'dark' ? <SunIcon /> : <MoonIcon />}
+          </ButtonStyle>
           <Menu theme={theme} setTheme={setTheme} />
         </nav>
       </HeaderStyled>

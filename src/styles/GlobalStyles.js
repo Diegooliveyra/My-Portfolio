@@ -15,6 +15,7 @@ export const GlobalStyle = createGlobalStyle`
   body{
     background: ${(props) => (props.theme.mode === 'dark' ? '#111' : '#EEE')};
     color: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
+    font-family:  Roboto, 'Segoe UI',Oxygen, Ubuntu, Cantarell ;
   }
 
   ul {

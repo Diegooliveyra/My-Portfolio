@@ -17,7 +17,7 @@ export const MenuStyle = styled.ul`
 
   li a {
     display: block;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 1rem;
     color: currentColor;
   }
@@ -33,7 +33,7 @@ export const Hamburguer = styled.div`
   cursor: pointer;
   div {
     width: 2rem;
-    height: 0.25rem;
+    height: 0.35rem;
     background-color: ${({ theme }) =>
       theme.mode != 'dark' ? `#111` : `#eee`};
     border-radius: 10px;
