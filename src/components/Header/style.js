@@ -15,3 +15,13 @@ export const HeaderStyled = styled.header`
     max-width: 1280px;
   }
 `;
+
+export const ButtonStyle = styled.button`
+  cursor: pointer;
+  background: transparent;
+  border: none;
+
+  svg g {
+    stroke: white;
+  }
+`;
