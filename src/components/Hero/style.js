@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import bg_hero from '../../Assets/bg_hero.jpg';
-import bg_hero_light from '../../Assets/bg_hero_light.jpg';
 
 export const HeroStyled = styled.section`
   width: 100vw;
@@ -12,7 +11,7 @@ export const HeroStyled = styled.section`
   background: ${(props) =>
     props.theme.mode === 'dark'
       ? `linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url(${bg_hero})`
-      : `linear-gradient(rgba(255, 255, 255, .2), rgba(255, 255, 255, 0.2)), url(${bg_hero_light})`};
+      : `linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, 0.8)), url(${bg_hero})`};
   background-size: cover;
   background-position: center center;
   padding: 0 1rem;
@@ -22,7 +21,8 @@ export const HeroStyled = styled.section`
   }
 
   h1 {
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 1.85;
     font-weight: 300;
     text-align: center;
     color: ${(props) => (props.theme.mode === 'dark' ? `#FFF` : `#111`)};

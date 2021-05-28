@@ -15,7 +15,7 @@ const Header = ({ theme, setTheme }) => {
     <Container>
       <HeaderStyled>
         <nav>
-          <ButtonStyle onClick={handleChangeTheme}>
+          <ButtonStyle theme={theme} onClick={handleChangeTheme}>
             {theme.mode === 'dark' ? <SunIcon /> : <MoonIcon />}
           </ButtonStyle>
           <Menu theme={theme} setTheme={setTheme} />

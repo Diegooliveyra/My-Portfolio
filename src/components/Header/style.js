@@ -3,9 +3,10 @@ import styled from 'styled-components';
 export const HeaderStyled = styled.header`
   width: 100%;
   padding: 2rem 1rem;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
+  z-index: 99;
 
   nav {
     display: flex;
@@ -22,6 +23,7 @@ export const ButtonStyle = styled.button`
   border: none;
 
   svg g {
-    stroke: white;
+    fill: ${({ theme }) => (theme.mode === 'dark' ? 'none' : '#333')};
+    stroke: ${({ theme }) => (theme.mode === 'dark' ? '#FFF' : 'none')};
   }
 `;
