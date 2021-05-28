@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import bg_hero from '../../Assets/bg_hero.jpg';
 
 export const HeroStyled = styled.section`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,12 @@ export const HeroStyled = styled.section`
   background-position: center center;
   padding: 0 1rem;
 
+  margin-top: -7rem;
   svg {
     width: 100%;
   }
 
-  h1 {
+  h3 {
     font-size: 2rem;
     line-height: 1.85;
     font-weight: 300;

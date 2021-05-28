@@ -27,6 +27,11 @@ export const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
 
+  img {
+    max-width: 100%;
+    display: block;
+  }
+
   h1 {
     font-family: Spartan, Arial, Helvetica, sans-serif;
     font-size: 2rem;
@@ -34,6 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     text-transform: uppercase;
     position: relative;
     margin-bottom: .5rem;
+    margin-left: 22px;
   }
 
   h1 span {
