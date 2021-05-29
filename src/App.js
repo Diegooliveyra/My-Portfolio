@@ -3,7 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
-import { GlobalStyle, Container } from './styles/GlobalStyles';
+import { GlobalStyle } from './styles/GlobalStyles';
 
 function App() {
   const [theme, setTheme] = useState({ mode: 'dark' });

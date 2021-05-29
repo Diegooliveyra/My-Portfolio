@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const MenuStyle = styled.ul`
   width: 100vw;
   height: 100vh;
-  background: ${({ theme }) => (theme.mode === 'dark' ? `#1F2021` : `#eee`)};
+  background: ${({ theme }) =>
+    theme.mode === 'dark' ? `var(--dark-color)` : `#eee`};
   position: fixed;
   top: 0;
   left: 0;
@@ -35,7 +36,7 @@ export const Hamburguer = styled.div`
     width: 2rem;
     height: 0.2rem;
     background-color: ${({ theme }) =>
-      theme.mode != 'dark' ? `#111` : `#eee`};
+      theme.mode !== 'dark' ? `var(--dark-color)` : `#eee`};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;

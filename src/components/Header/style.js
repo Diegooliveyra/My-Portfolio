@@ -23,7 +23,8 @@ export const ButtonStyle = styled.button`
   border: none;
 
   svg g {
-    fill: ${({ theme }) => (theme.mode === 'dark' ? 'none' : '#333')};
+    fill: ${({ theme }) =>
+      theme.mode === 'dark' ? 'none' : 'var(--dark-color)'};
     stroke: ${({ theme }) => (theme.mode === 'dark' ? '#FFF' : 'none')};
   }
 `;

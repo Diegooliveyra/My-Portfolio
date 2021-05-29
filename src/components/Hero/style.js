@@ -15,8 +15,8 @@ export const HeroStyled = styled.section`
   background-size: cover;
   background-position: center center;
   padding: 0 1rem;
-
-  margin-top: -7rem;
+  position: relative;
+  margin-top: -6rem;
   svg {
     width: 100%;
   }
@@ -30,6 +30,44 @@ export const HeroStyled = styled.section`
 
     @media (max-width: 600px) {
       font-size: 1.6rem;
+    }
+  }
+`;
+
+export const ArrowMove = styled.div`
+  position: absolute;
+  bottom: 60px;
+  span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-color: ${(props) => (props.theme.mode === 'dark' ? `#FFF` : `#111`)};
+    transform: rotate(45deg);
+    margin: -12px;
+    animation: arrow 2s infinite;
+
+    :nth-child(2) {
+      animation-delay: -0.2s;
+    }
+
+    :nth-child(3) {
+      animation-delay: -0.4s;
+    }
+  }
+
+  @keyframes arrow {
+    0% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-15px, -15px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(15px, 15px);
     }
   }
 `;

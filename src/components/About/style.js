@@ -5,9 +5,10 @@ export const AboutWrapper = styled.section`
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin: 10rem 0;
+
   padding: 0 1rem;
   flex-wrap: wrap;
+  min-height: 100vh;
   @media (max-width: 600px) {
     flex-direction: column;
     margin: 7rem 0;

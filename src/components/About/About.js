@@ -9,7 +9,7 @@ const About = () => {
     <Container>
       <S.AboutWrapper>
         <S.AboutInfo>
-          <h1 id={About}>
+          <h1>
             Sobre <span>Min</span>
           </h1>
           <h2>Desenvolvedor Front-End</h2>

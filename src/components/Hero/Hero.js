@@ -1,14 +1,19 @@
 import React from 'react';
 
-import { HeroStyled } from './style';
+import * as S from './style';
 import { ReactComponent as Logo } from '../../Assets/logo.svg';
 
 const Hero = () => {
   return (
-    <HeroStyled>
+    <S.HeroStyled>
       <Logo />
       <h3>Desenvolvedor Front-End</h3>
-    </HeroStyled>
+      <S.ArrowMove>
+        <span></span>
+        <span></span>
+        <span></span>
+      </S.ArrowMove>
+    </S.HeroStyled>
   );
 };
 
