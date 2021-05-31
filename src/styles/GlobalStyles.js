@@ -16,6 +16,8 @@ export const GlobalStyle = createGlobalStyle`
     background: ${(props) => (props.theme.mode === 'dark' ? '#111' : '#EEE')};
     color: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
     font-family:  Spartan, Arial, Helvetica, sans-serif;
+    
+
   }
 
   ul {
