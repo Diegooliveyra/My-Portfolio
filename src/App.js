@@ -14,7 +14,7 @@ function App() {
         <Header theme={theme} setTheme={setTheme} />
         <Hero />
         <About />
-        <Skills />
+        <Skills theme={theme} setTheme={setTheme} />
         <GlobalStyle />
       </ThemeProvider>
     </>

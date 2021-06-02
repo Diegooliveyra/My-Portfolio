@@ -13,7 +13,7 @@ export const MenuStyle = styled.ul`
   align-items: center;
   justify-content: center;
   transform: ${({ menuMobile }) =>
-    menuMobile ? 'translateX(0)' : 'translateX(100%)'};
+    menuMobile ? 'translateX(0)' : 'translateX(200%)'};
   transition: transform 0.3s ease-in-out;
 
   li a {
