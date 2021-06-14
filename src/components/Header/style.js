@@ -13,7 +13,7 @@ export const HeaderStyled = styled.header`
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
-    max-width: 1280px;
+    max-width: 1680px;
   }
 `;
 

@@ -12,8 +12,8 @@ export const SkillsWrapper = styled.section`
     flex-direction: column;
     justify-content: center;
   }
-  @media (max-height: 1200px) {
-    min-height: 100%; 
+  @media (min-height: 1200px) {
+    min-height: 50vh; 
   }
 `;
 
@@ -48,7 +48,7 @@ export const SkillLogo = styled.div`
     justify-content: center;
 
     svg {
-      max-width: 300px;
+      width: 100%;
       
     }
   }

@@ -12,6 +12,10 @@ export const AboutWrapper = styled.section`
     flex-direction: column;
     margin: 7rem 0;
   }
+
+  @media (min-height: 1200px) {
+    min-height: 50vh; 
+  }
 `;
 
 export const AboutInfo = styled.div`

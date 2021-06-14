@@ -12,7 +12,7 @@ const Header = ({ theme, setTheme }) => {
       : setTheme({ mode: 'dark' });
   }
   return (
-    <Container>
+   
       <HeaderStyled>
         <nav>
           <ButtonStyle theme={theme} onClick={handleChangeTheme}>
@@ -21,7 +21,7 @@ const Header = ({ theme, setTheme }) => {
           <Menu theme={theme} setTheme={setTheme} />
         </nav>
       </HeaderStyled>
-    </Container>
+    
   );
 };
 
