@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from '../../styles/GlobalStyles';
 import Menu from './Menu/Menu';
 import { HeaderStyled, ButtonStyle } from './style';
 import { ReactComponent as SunIcon } from '../../Assets/sun.svg';
@@ -12,16 +11,14 @@ const Header = ({ theme, setTheme }) => {
       : setTheme({ mode: 'dark' });
   }
   return (
-   
-      <HeaderStyled>
-        <nav>
-          <ButtonStyle theme={theme} onClick={handleChangeTheme}>
-            {theme.mode === 'dark' ? <SunIcon /> : <MoonIcon />}
-          </ButtonStyle>
-          <Menu theme={theme} setTheme={setTheme} />
-        </nav>
-      </HeaderStyled>
-    
+    <HeaderStyled>
+      <nav>
+        <ButtonStyle theme={theme} onClick={handleChangeTheme}>
+          {theme.mode === 'dark' ? <SunIcon /> : <MoonIcon />}
+        </ButtonStyle>
+        <Menu theme={theme} setTheme={setTheme} />
+      </nav>
+    </HeaderStyled>
   );
 };
 
