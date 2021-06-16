@@ -3,6 +3,7 @@ import { ThemeProvider } from 'styled-components';
 import About from './components/About/About';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
+import Portifolio from './components/Portifolio/Portifolio';
 import Skills from './components/Skills/Skills';
 import { GlobalStyle } from './styles/GlobalStyles';
 
@@ -15,6 +16,7 @@ function App() {
         <Hero />
         <About />
         <Skills theme={theme} setTheme={setTheme} />
+        <Portifolio theme={theme} setTheme={setTheme} />
         <GlobalStyle />
       </ThemeProvider>
     </>
