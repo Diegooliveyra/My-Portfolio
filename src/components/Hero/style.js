@@ -36,7 +36,7 @@ export const HeroStyled = styled.section`
 
 export const ArrowMove = styled.div`
   position: absolute;
-  bottom: 60px;
+  bottom: 100px;
   span {
     display: block;
     width: 20px;

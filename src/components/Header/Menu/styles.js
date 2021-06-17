@@ -26,15 +26,15 @@ export const MenuStyle = styled.ul`
 
 export const Hamburguer = styled.div`
   width: 2rem;
-  height: 2rem;
+  height: 1.5rem;
   z-index: 99;
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
   cursor: pointer;
   div {
-    width: 2rem;
-    height: 0.2rem;
+    width: 1.5rem;
+    height: 0.18rem;
     background-color: ${({ theme }) =>
       theme.mode !== 'dark' ? `var(--dark-color)` : `#eee`};
     border-radius: 10px;

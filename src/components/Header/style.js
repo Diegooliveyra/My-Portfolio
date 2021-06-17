@@ -13,7 +13,7 @@ export const HeaderStyled = styled.header`
     justify-content: space-between;
     width: 100%;
     margin: 0 auto;
-    max-width: 1680px;
+    max-width: 95%;
   }
 `;
 
@@ -21,7 +21,6 @@ export const ButtonStyle = styled.button`
   cursor: pointer;
   background: transparent;
   border: none;
-
   svg g {
     fill: ${({ theme }) =>
       theme.mode === 'dark' ? 'none' : 'var(--dark-color)'};
