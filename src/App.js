@@ -5,6 +5,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Portifolio from './components/Portifolio/Portifolio';
 import Skills from './components/Skills/Skills';
+import Contact from './components/Contact/Contact';
 import { GlobalStyle } from './styles/GlobalStyles';
 
 function App() {
@@ -15,8 +16,9 @@ function App() {
         <Header theme={theme} setTheme={setTheme} />
         <Hero />
         <About />
-        <Skills theme={theme} setTheme={setTheme} />
-        <Portifolio theme={theme} setTheme={setTheme} />
+        <Skills />
+        <Portifolio />
+        <Contact />
         <GlobalStyle />
       </ThemeProvider>
     </>

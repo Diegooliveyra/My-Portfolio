@@ -22,8 +22,8 @@ export const ButtonStyle = styled.button`
   background: transparent;
   border: none;
   svg g {
-    fill: ${({ theme }) =>
-      theme.mode === 'dark' ? 'none' : 'var(--dark-color)'};
-    stroke: ${({ theme }) => (theme.mode === 'dark' ? '#FFF' : 'none')};
+    fill: ${(props) =>
+      props.theme.mode === 'dark' ? 'none' : 'var(--dark-color)'};
+    stroke: ${(props) => (props.theme.mode === 'dark' ? '#FFF' : 'none')};
   }
 `;

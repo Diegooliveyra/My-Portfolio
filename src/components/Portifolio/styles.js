@@ -27,7 +27,7 @@ export const PortifolioCards = styled.div`
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-  color: #333;
+  color: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
 `;
 
 export const PortifolioCard = styled.div`
@@ -38,7 +38,7 @@ export const PortifolioCard = styled.div`
   overflow: hidden;
   position: relative;
   border: 1px solid #b15063;
-  color: #ddd;
+
   transition: transform 0.2s linear;
 
   :hover {
@@ -68,7 +68,7 @@ export const PortifolioCard = styled.div`
   }
 
   svg path {
-    fill: #ddd;
+    fill: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
   }
 
   div {

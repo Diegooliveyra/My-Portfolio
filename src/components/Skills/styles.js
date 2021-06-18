@@ -7,13 +7,13 @@ export const SkillsWrapper = styled.section`
   width: 100%;
   padding: 0 1rem;
   flex-wrap: wrap;
-  min-height: 100vh; 
+  min-height: 100vh;
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
   }
   @media (min-height: 1200px) {
-    min-height: 50vh; 
+    min-height: 50vh;
   }
 `;
 
@@ -38,18 +38,15 @@ export const SkillLogo = styled.div`
   justify-content: flex-end;
 
   svg > * {
-      fill: ${({ theme }) =>
-        theme.mode === 'dark' ? '#FFF' : 'var(--dark-color)'};
-    }
+    fill: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
+  }
 
-    
   @media (max-width: 768px) {
     margin-top: 2rem;
     justify-content: center;
 
     svg {
       width: 100%;
-      
     }
   }
 `;
