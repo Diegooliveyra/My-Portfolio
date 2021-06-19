@@ -8,7 +8,7 @@ import { ReactComponent as EmailIcon } from '../../Assets/email.svg';
 
 const Hero = () => {
   return (
-    <S.HeroStyled>
+    <S.HeroStyled id="home">
       <Logo />
       <h3>Desenvolvedor Front-End</h3>
       <S.ArrowMove>

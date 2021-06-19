@@ -6,7 +6,7 @@ import { ReactComponent as SkillsLogo } from '../../Assets/skills_logos.svg';
 const Skills = ({ theme, setTheme }) => {
   return (
     <Container>
-      <S.SkillsWrapper theme={theme} setTheme={setTheme}>
+      <S.SkillsWrapper theme={theme} setTheme={setTheme} id="skill">
         <S.SkillInfo>
           <h1>
             Minhas <span>Habilidades</span>

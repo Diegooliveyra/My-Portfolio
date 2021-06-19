@@ -7,7 +7,7 @@ import Button from '../Button/Button';
 const About = () => {
   return (
     <Container>
-      <S.AboutWrapper>
+      <S.AboutWrapper id="about">
         <S.AboutInfo>
           <h1>
             Sobre <span>Min</span>

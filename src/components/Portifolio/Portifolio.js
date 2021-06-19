@@ -10,7 +10,7 @@ import { ReactComponent as LogoGithub } from '../../Assets/github.svg';
 const Portifolio = ({ theme, setTheme }) => {
   return (
     <Container>
-      <S.PortifolioWrapper theme={theme} setTheme={setTheme}>
+      <S.PortifolioWrapper theme={theme} setTheme={setTheme} id="portifolio">
         <h1>
           Meu <span>Portifólio</span>
         </h1>
