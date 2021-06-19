@@ -11,6 +11,7 @@ export const ContactWrapper = styled.section`
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
+    margin: 5rem 0;
   }
   @media (min-height: 1200px) {
     min-height: 50vh;
@@ -54,6 +55,10 @@ export const ListContact = styled.ul`
 export const ContactForm = styled.div`
   max-width: 620px;
   flex: 1 1 300px;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 
   button {
     width: 100%;
