@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle, keyframes } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -73,6 +73,14 @@ export const GlobalStyle = createGlobalStyle`
     font-family:  Spartan, Arial, Helvetica, sans-serif;
 
   }
+
+
+
+`;
+
+export const FadeInAnimation = keyframes`  
+  from { opacity: 0; }
+  to { opacity: 1; }
 `;
 
 export const Container = styled.div`

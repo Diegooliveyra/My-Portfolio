@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import bg_hero from '../../Assets/bg_hero.jpg';
 
 export const HeroStyled = styled.section`
@@ -19,6 +19,7 @@ export const HeroStyled = styled.section`
   margin-top: -6rem;
   svg {
     width: 100%;
+    animation: animaDown 1.4s ease forwards;
   }
 
   h3 {
@@ -27,9 +28,21 @@ export const HeroStyled = styled.section`
     font-weight: 300;
     text-align: center;
     color: ${(props) => (props.theme.mode === 'dark' ? `#FFF` : `#111`)};
+    animation: animaDown 0.8s ease forwards;
 
     @media (max-width: 600px) {
       font-size: 1.6rem;
+    }
+  }
+
+  @keyframes animaDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
     }
   }
 `;

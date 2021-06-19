@@ -1,12 +1,11 @@
 import React from 'react';
-
 import * as S from './style';
 import { ReactComponent as Logo } from '../../Assets/logo.svg';
 import { ReactComponent as GithubIcon } from '../../Assets/github.svg';
 import { ReactComponent as LinkedinIcon } from '../../Assets/linkedin.svg';
 import { ReactComponent as WhatsAppIcon } from '../../Assets/whatsapp.svg';
 import { ReactComponent as EmailIcon } from '../../Assets/email.svg';
-import { ReactComponent as LocationIcon } from '../../Assets/location.svg';
+
 const Hero = () => {
   return (
     <S.HeroStyled>
