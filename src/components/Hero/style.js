@@ -71,3 +71,38 @@ export const ArrowMove = styled.div`
     }
   }
 `;
+
+export const IconsLinks = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 2rem;
+
+  @media (max-width: 600px) {
+    position: relative;
+    flex-direction: row;
+    right: 0;
+    margin-top: 2rem;
+  }
+  a {
+    display: block;
+    margin-left: 1rem;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+
+    @media (max-width: 600px) {
+      margin-left: 1rem;
+      :nth-child(1) {
+        margin-left: 0rem;
+      }
+    }
+  }
+
+  svg path {
+    fill: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
+  }
+`;
