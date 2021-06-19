@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import bg_hero from '../../Assets/bg_hero.jpg';
 
 export const HeroStyled = styled.section`
