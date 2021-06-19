@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background: ${(props) => (props.theme.mode === 'dark' ? '#111' : '#EEE')};
+    background: ${(props) => (props.theme.mode === 'dark' ? '#111' : '#fff')};
     color: ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#111')};
     font-family:  Spartan, Arial, Helvetica, sans-serif;
     
