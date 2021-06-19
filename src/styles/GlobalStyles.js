@@ -68,6 +68,11 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     font-size: 1.4rem;
   }
+
+  input , textarea{
+    font-family:  Spartan, Arial, Helvetica, sans-serif;
+
+  }
 `;
 
 export const Container = styled.div`

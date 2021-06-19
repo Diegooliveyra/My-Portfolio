@@ -75,9 +75,20 @@ export const TextArea = styled.div`
   }
 
   textarea {
+    outline: none;
     height: 6rem;
     padding: 0.8rem 1rem;
     font-size: 1rem;
     color: var(--dark-color);
+    resize: none;
+    border: 1px solid
+      ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#aaa')};
+    :focus,
+    :hover {
+      outline: none;
+      border-color: white;
+      background-color: #fff;
+      box-shadow: 0 0 0 1px #d65063;
+    }
   }
 `;

@@ -11,8 +11,19 @@ export const InputStyle = styled.div`
 
   input {
     padding: 0.8rem 1rem;
+    border: 1px solid
+      ${(props) => (props.theme.mode === 'dark' ? '#EEE' : '#aaa')};
     font-size: 1rem;
     outline: none;
     color: var(--dark-color);
+    border-radius: 2px;
+
+    :focus,
+    :hover {
+      outline: none;
+      border-color: white;
+      background-color: #fff;
+      box-shadow: 0 0 0 1px #d65063;
+    }
   }
 `;
