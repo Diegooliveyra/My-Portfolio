@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import * as S from './styles';
 import { Container } from '../../styles/GlobalStyles';
 import Input from '../input/Input';
@@ -9,10 +9,19 @@ import { ReactComponent as WhatsAppIcon } from '../../Assets/whatsapp.svg';
 import { ReactComponent as EmailIcon } from '../../Assets/email.svg';
 import { ReactComponent as LocationIcon } from '../../Assets/location.svg';
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
     <Container>
-      <S.ContactWrapper id="contact">
+      <S.ContactWrapper id="contact" data-aos="fade-left">
         <S.ContactInfo>
           <h1>
             Meu <span>Contato</span>
