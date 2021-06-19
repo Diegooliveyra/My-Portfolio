@@ -89,7 +89,7 @@ export const IconsLinks = styled.div`
   display: flex;
   flex-direction: column;
   position: absolute;
-  right: 2rem;
+  right: 3.5%;
 
   @media (max-width: 600px) {
     position: relative;
