@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container } from '../../styles/GlobalStyles';
 import * as S from './styles';
 import image_portifolio_1 from '../../Assets/portifolio_img_1.png';
@@ -6,15 +6,8 @@ import image_portifolio_2 from '../../Assets/portifolio_img_2.png';
 import image_portifolio_3 from '../../Assets/portifolio_img_3.png';
 import image_portifolio_4 from '../../Assets/portifolio_img_4.png';
 import { ReactComponent as LogoGithub } from '../../Assets/github.svg';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Portifolio = ({ theme, setTheme }) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
   return (
     <Container>
       <S.PortifolioWrapper

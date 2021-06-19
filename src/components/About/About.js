@@ -1,17 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import * as S from './style';
 import { Container } from '../../styles/GlobalStyles';
 import photo from '../../Assets/photo.png';
 import Button from '../Button/Button';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const About = () => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
   return (
     <Container>
       <S.AboutWrapper id="about" data-aos="fade-right">

@@ -1,16 +1,9 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Container } from '../../styles/GlobalStyles';
 import * as S from './styles';
 import { ReactComponent as SkillsLogo } from '../../Assets/skills_logos.svg';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 const Skills = ({ theme, setTheme }) => {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-    });
-  }, []);
   return (
     <Container>
       <S.SkillsWrapper
