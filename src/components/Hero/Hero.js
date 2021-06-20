@@ -9,14 +9,14 @@ import { ReactComponent as EmailIcon } from '../../Assets/email.svg';
 const Hero = () => {
   return (
     <S.HeroStyled id="home">
-      <Logo />
-      <h3>Desenvolvedor Front-End</h3>
+      <Logo data-aos="fade-up" />
+      <h3 data-aos="fade-up">Desenvolvedor Front-End</h3>
       <S.ArrowMove>
         <span></span>
         <span></span>
         <span></span>
       </S.ArrowMove>
-      <S.IconsLinks>
+      <S.IconsLinks data-aos="fade-up">
         <a
           href="https://github.com/Diegooliveyra"
           target="_blank"

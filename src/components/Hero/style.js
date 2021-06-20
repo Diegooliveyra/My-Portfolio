@@ -19,7 +19,7 @@ export const HeroStyled = styled.section`
   margin-top: -6rem;
   svg {
     width: 100%;
-    animation: animaDown 1.4s ease forwards;
+    /* animation: animaDown 1.4s ease forwards; */
     @media (max-width: 600px) {
       height: 40px;
     }
@@ -31,7 +31,7 @@ export const HeroStyled = styled.section`
     font-weight: 300;
     text-align: center;
     color: ${(props) => (props.theme.mode === 'dark' ? `#FFF` : `#111`)};
-    animation: animaDown 0.8s ease forwards;
+    /* animation: animaDown 0.8s ease forwards; */
 
     @media (max-width: 600px) {
       font-size: 1.4rem;
@@ -103,6 +103,10 @@ export const IconsLinks = styled.div`
   a {
     display: block;
     margin-left: 1rem;
+    transition: ease 0.7s;
+    :hover {
+      transform: translateY(-10px);
+    }
 
     @media (max-width: 600px) {
       :nth-child(1) {
