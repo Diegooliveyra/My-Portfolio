@@ -53,7 +53,7 @@ export const ListContact = styled.ul`
   }
 `;
 
-export const ContactForm = styled.div`
+export const ContactForm = styled.form`
   max-width: 620px;
   flex: 1 1 300px;
 

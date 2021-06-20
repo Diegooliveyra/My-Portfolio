@@ -1,10 +1,10 @@
 import React from 'react';
 import { ButtonStyle } from './style';
 
-const Button = ({ children }) => {
+const Button = ({ children, type }) => {
   return (
     <>
-      <ButtonStyle>{children}</ButtonStyle>
+      <ButtonStyle type={type}>{children}</ButtonStyle>
     </>
   );
 };

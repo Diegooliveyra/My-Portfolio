@@ -10,6 +10,10 @@ import { ReactComponent as EmailIcon } from '../../Assets/email.svg';
 import { ReactComponent as LocationIcon } from '../../Assets/location.svg';
 
 const Contact = () => {
+  const handleSubmit = (event) => {
+    alert('Enviado com Sucesso');
+  };
+
   return (
     <Container>
       <S.ContactWrapper id="contact" data-aos="fade-right">
@@ -25,7 +29,11 @@ const Contact = () => {
           </p>
           <S.ListContact>
             <li>
-              <a href="https://github.com/Diegooliveyra" target="_blank">
+              <a
+                href="https://github.com/Diegooliveyra"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <GithubIcon />
                 diegooliveyra
               </a>
@@ -34,6 +42,7 @@ const Contact = () => {
               <a
                 href="https://www.linkedin.com/in/diego-de-oliveira-brito/"
                 target="_blank"
+                rel="noreferrer"
               >
                 <LinkedinIcon />
                 in/diego-de-oliveira-brito
@@ -43,19 +52,28 @@ const Contact = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=5511954830893"
                 target="_blank"
+                rel="noreferrer"
               >
                 <WhatsAppIcon />
                 11 95483-0893
               </a>
             </li>
             <li>
-              <a href="mailto:diegooliveirabryto@gmail.com" target="_blank">
+              <a
+                href="mailto:diegooliveirabryto@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <EmailIcon />
                 diegooliveirabryto@gmail.com
               </a>
             </li>
             <li>
-              <a href="https://goo.gl/maps/xrGrjjkxZFx6jXm59" target="_blank">
+              <a
+                href="https://goo.gl/maps/xrGrjjkxZFx6jXm59"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <LocationIcon />
                 Mogi das Cruzes - SP
               </a>
@@ -63,7 +81,7 @@ const Contact = () => {
           </S.ListContact>
         </S.ContactInfo>
 
-        <S.ContactForm>
+        <S.ContactForm onSubmit={handleSubmit}>
           <Input label="Seu nome (obrigatório)" type="text" name="nome" />
 
           <Input label="Seu e-mail (obrigatório)" type="email" name="email" />
@@ -71,7 +89,6 @@ const Contact = () => {
             <label htmlFor="mensagem">Sua mensagem</label>
             <textarea id="mensagem"></textarea>
           </S.TextArea>
-
           <Button type="submit">Enviar</Button>
         </S.ContactForm>
       </S.ContactWrapper>
