@@ -12,7 +12,7 @@ import { ReactComponent as LocationIcon } from '../../Assets/location.svg';
 const Contact = () => {
   return (
     <Container>
-      <S.ContactWrapper id="contact" data-aos="fade-left">
+      <S.ContactWrapper id="contact" data-aos="fade-right">
         <S.ContactInfo>
           <h1>
             Meu <span>Contato</span>

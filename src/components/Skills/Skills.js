@@ -10,7 +10,7 @@ const Skills = ({ theme, setTheme }) => {
         theme={theme}
         setTheme={setTheme}
         id="skill"
-        data-aos="fade-left"
+        data-aos="fade-right"
       >
         <S.SkillInfo>
           <h1>
