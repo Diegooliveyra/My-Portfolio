@@ -20,6 +20,9 @@ export const HeroStyled = styled.section`
   svg {
     width: 100%;
     animation: animaDown 1.4s ease forwards;
+    @media (max-width: 600px) {
+      height: 40px;
+    }
   }
 
   h3 {
@@ -31,7 +34,7 @@ export const HeroStyled = styled.section`
     animation: animaDown 0.8s ease forwards;
 
     @media (max-width: 600px) {
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
   }
 
@@ -95,24 +98,23 @@ export const IconsLinks = styled.div`
     position: relative;
     flex-direction: row;
     right: 0;
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
   a {
     display: block;
     margin-left: 1rem;
+
+    @media (max-width: 600px) {
+      :nth-child(1) {
+        margin: 0rem;
+      }
+    }
   }
 
   svg {
     width: 30px;
     height: 30px;
     margin-bottom: 1rem;
-
-    @media (max-width: 600px) {
-      margin-left: 1rem;
-      :nth-child(1) {
-        margin-left: 0rem;
-      }
-    }
   }
 
   svg path {

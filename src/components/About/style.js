@@ -10,11 +10,12 @@ export const AboutWrapper = styled.section`
   min-height: 100vh;
   @media (max-width: 600px) {
     flex-direction: column;
-    margin: 7rem 0;
+    margin: 4rem 0;
+    padding: 4rem 0;
   }
 
   @media (min-height: 1200px) {
-    min-height: 50vh; 
+    min-height: 50vh;
   }
 `;
 

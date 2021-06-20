@@ -12,7 +12,8 @@ export const PortifolioWrapper = styled.section`
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
-    margin-top: 6rem;
+    margin: 4rem 0;
+    padding: 4rem 0;
   }
   @media (min-height: 1200px) {
     min-height: 50vh;

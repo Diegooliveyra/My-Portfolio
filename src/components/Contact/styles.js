@@ -11,7 +11,8 @@ export const ContactWrapper = styled.section`
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
-    margin: 5rem 0;
+    margin: 4rem 0;
+    padding: 4rem 0;
   }
   @media (min-height: 1200px) {
     min-height: 50vh;
@@ -35,7 +36,7 @@ export const ContactInfo = styled.div`
 export const ListContact = styled.ul`
   margin: 2rem 0;
 
-  li {
+  li a {
     display: flex;
     align-items: center;
     margin-bottom: 1rem;

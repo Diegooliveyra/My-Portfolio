@@ -11,6 +11,7 @@ export const SkillsWrapper = styled.section`
   @media (max-width: 768px) {
     flex-direction: column;
     justify-content: center;
+    padding: 4rem 0;
   }
   @media (min-height: 1200px) {
     min-height: 50vh;

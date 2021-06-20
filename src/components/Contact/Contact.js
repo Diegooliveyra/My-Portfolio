@@ -25,24 +25,40 @@ const Contact = () => {
           </p>
           <S.ListContact>
             <li>
-              <GithubIcon />
-              diegooliveyra
+              <a href="https://github.com/Diegooliveyra" target="_blank">
+                <GithubIcon />
+                diegooliveyra
+              </a>
             </li>
             <li>
-              <LinkedinIcon />
-              in/diego-de-oliveira-brito
+              <a
+                href="https://www.linkedin.com/in/diego-de-oliveira-brito/"
+                target="_blank"
+              >
+                <LinkedinIcon />
+                in/diego-de-oliveira-brito
+              </a>
             </li>
             <li>
-              <WhatsAppIcon />
-              11 95234-1234
+              <a
+                href="https://api.whatsapp.com/send?phone=5511954830893"
+                target="_blank"
+              >
+                <WhatsAppIcon />
+                11 95483-0893
+              </a>
             </li>
             <li>
-              <EmailIcon />
-              diegooliveirabryto@gmail.com
+              <a href="mailto:diegooliveirabryto@gmail.com" target="_blank">
+                <EmailIcon />
+                diegooliveirabryto@gmail.com
+              </a>
             </li>
             <li>
-              <LocationIcon />
-              Mogi das Cruzes - SP
+              <a href="https://goo.gl/maps/xrGrjjkxZFx6jXm59" target="_blank">
+                <LocationIcon />
+                Mogi das Cruzes - SP
+              </a>
             </li>
           </S.ListContact>
         </S.ContactInfo>

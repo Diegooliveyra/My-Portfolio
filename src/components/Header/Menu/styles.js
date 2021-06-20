@@ -18,7 +18,8 @@ export const MenuStyle = styled.ul`
 
   li a {
     display: block;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
     padding: 1rem;
     color: currentColor;
   }

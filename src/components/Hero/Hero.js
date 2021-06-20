@@ -17,16 +17,22 @@ const Hero = () => {
         <span></span>
       </S.ArrowMove>
       <S.IconsLinks>
-        <a href="https://github.com/Diegooliveyra">
+        <a href="https://github.com/Diegooliveyra" target="_blank">
           <GithubIcon />
         </a>
-        <a href="https://www.linkedin.com/in/diego-de-oliveira-brito/">
+        <a
+          href="https://www.linkedin.com/in/diego-de-oliveira-brito/"
+          target="_blank"
+        >
           <LinkedinIcon />
         </a>
-        <a href="https://api.whatsapp.com/send?phone=5511954830893">
+        <a
+          href="https://api.whatsapp.com/send?phone=5511954830893"
+          target="_blank"
+        >
           <WhatsAppIcon />
         </a>
-        <a href="mailto:diegooliveirabryto@gmail.com">
+        <a href="mailto:diegooliveirabryto@gmail.com" target="_blank">
           <EmailIcon />
         </a>
       </S.IconsLinks>
