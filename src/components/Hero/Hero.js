@@ -16,7 +16,7 @@ const Hero = () => {
         <span></span>
         <span></span>
       </S.ArrowMove>
-      <S.IconsLinks data-aos="fade-up">
+      <S.IconsLinks>
         <a
           href="https://github.com/Diegooliveyra"
           target="_blank"
