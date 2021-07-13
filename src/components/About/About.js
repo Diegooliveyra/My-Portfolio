@@ -14,15 +14,19 @@ const About = () => {
           </h1>
           <h2>Desenvolvedor Front-End</h2>
           <p>
-            Olá me chamo Diego, tenho 32 anos de Idade sou Bacharel em Sistemas
-            de Informação Graduado pela Universidade Estadual de Goiás, e desejo
-            evoluir cada vez mais meus conhecimentos e continuar sempre
-            trabalhando nesta área que eu amo tanto que é o desenvolvimento Web.
+            Olá me chamo Diego, tenho 32 anos de Idade sou formado em Marketing
+            pela Universidade Braz Cubas e atualemnte me graduando em Analise e
+            Desenvolvimentio de Sistemas pela Universidade de Maringa. Tenho
+            experiência de mais de 6 anos como Designer freelancer, atendendo
+            agências, clientes finais e parcerias com outros designers.
           </p>
           <p>
-            Além da Graduação atuei em cargos que obtive um boa bagagem teórica
-            e prática tendo sempre muita disposição de aprender e evoluir na
-            área da tecnologia da informação
+            Por 3 anos atuo como analista de marketing na Instel Tecnologia,
+            onde sou responsável pela criação e desenvolvimento de toda a
+            identidate visual da empresa, tal como tambem o website. Nos ultimos
+            anos venho estudando e me especializando como desenvolvedor
+            Front-End, através de plataformas como a Origamid, Rocketseat e
+            Udemy.
           </p>
           <Button>Download CV</Button>
         </S.AboutInfo>

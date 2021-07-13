@@ -18,18 +18,19 @@ const Skills = ({ theme, setTheme }) => {
           </h1>
 
           <p>
-            Formado em Marketing pela Universidade Braz Cubas e graduando em
-            Analise e Desenvolvimentio de Sistemas pela Unicesumar. Tenho
-            experiência de mais de 6 anos como Designer freelancer, atendendo
-            agências, clientes finais e parcerias com outros designers.
+            Atuo principalmente criando e desenvolvendo layouts para sites,
+            landing pages e aplicativos como UI/UX Designer e codificando como
+            Frontend. Atualmente tenho bastante conhecimento em Html5, CSS e
+            Javascript, para estilização, além do CSS, tambem trabalho com
+            Bootstrap, Sass e Styled Components. Tenho um bom conhecimento em
+            React, atualmente venho estudando Typescript e Redux.
           </p>
           <p>
-            Por 3 anos atuo como analista de marketing na Instel Tecnologia,
-            onde sou responsável pela criação e desenvolvimento de toda a
-            identidate visual da empresa, tal como tambem o website. Nos ultimos
-            anos venho estudando e me especializando como desenvolvedor
-            Front-End, através de plataformas como a Origamid, Rocketseat e
-            Udemy.
+            Para criação de protótipos, atualmente utilizo o Figma, porém já
+            trabalhei com Adobe Photoshop, Adobe XD, e outros softwares de
+            vetor. Quer conhecer um pouco mais sobre o meu trabalho, então
+            confere abaixo o meu portfólio. E se gostar, pode me chamar para um
+            café.
           </p>
         </S.SkillInfo>
 
