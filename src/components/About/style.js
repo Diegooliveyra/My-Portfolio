@@ -39,10 +39,14 @@ export const AboutPhoto = styled.div`
   justify-content: center;
 
   img {
-max-width: 500px;
-}
+    max-width: 500px;
+  }
   @media (max-width: 640px) {
     margin-top: 2rem;
     justify-content: center;
+
+  img {
+    max-width: 100%;
+  }
   }
 `;
