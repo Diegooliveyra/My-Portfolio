@@ -82,12 +82,12 @@ const Contact = () => {
         </S.ContactInfo>
 
         <S.ContactForm onSubmit={handleSubmit}>
-          <Input label="Seu nome (obrigatório)" type="text" name="nome" />
+          <Input label="Seu nome (obrigatório)" type="text" name="nome" required />
 
-          <Input label="Seu e-mail (obrigatório)" type="email" name="email" />
+          <Input label="Seu e-mail (obrigatório)" type="email" name="email" required/>
           <S.TextArea>
             <label htmlFor="mensagem">Sua mensagem</label>
-            <textarea id="mensagem"></textarea>
+            <textarea id="mensagem" required></textarea>
           </S.TextArea>
           <Button type="submit">Enviar</Button>
         </S.ContactForm>
