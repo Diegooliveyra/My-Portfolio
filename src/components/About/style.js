@@ -36,7 +36,11 @@ export const AboutPhoto = styled.div`
   flex: 1 1 300px;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
+
+  img {
+max-width: 500px;
+}
   @media (max-width: 640px) {
     margin-top: 2rem;
     justify-content: center;
