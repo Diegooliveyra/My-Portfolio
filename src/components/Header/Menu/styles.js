@@ -22,6 +22,7 @@ export const MenuStyle = styled.ul`
     text-transform: uppercase;
     padding: 1rem;
     color: currentColor;
+    cursor: pointer;
   }
 `;
 
