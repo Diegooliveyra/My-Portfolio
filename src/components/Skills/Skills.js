@@ -18,19 +18,19 @@ const Skills = ({ theme, setTheme }) => {
           </h1>
 
           <p>
-            Atuo principalmente criando e desenvolvendo layouts para sites,
-            landing pages e aplicativos como UI/UX Designer e codificando como
-            Frontend. Atualmente tenho bastante conhecimento em Html5, CSS e
-            Javascript, para estilização, além do CSS, tambem trabalho com
-            Bootstrap, Sass e Styled Components. Tenho um bom conhecimento em
-            React, atualmente venho estudando Typescript e Redux.
+            Atuo principalmente criando e desenvolvendo layouts para sites, 
+            landing pages e aplicativos. Tenho bom conhecimento em Html5, CSS
+            e Javascript, tambem trabalho com Bootstrap, jquery, Sass e Styled
+            Components. Tenho conhecimento em React e Vue, atualmente venho 
+            estudando Typescript e Redux.
           </p>
           <p>
-            Para criação de protótipos, atualmente utilizo o Figma, porém já
-            trabalhei com Adobe Photoshop, Adobe XD, e outros softwares de
-            vetor. Quer conhecer um pouco mais sobre o meu trabalho, então
-            confere abaixo o meu portfólio. E se gostar, pode me chamar para um
-            café.
+           Nas criações de protótipos, atualmente utilizo o Figma, porém já 
+           trabalhei com outros softwares de prototipagem, tal como Adobe 
+           Photoshop, Adobe XD, entre outros.
+           Quer conhecer um pouco mais sobre o meu trabalho, então confere 
+           abaixo o meu portfólio. E se gostar, pode me chamar para um café :)
+
           </p>
         </S.SkillInfo>
 
