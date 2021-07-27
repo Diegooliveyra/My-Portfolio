@@ -10,7 +10,7 @@ const About = () => {
       <S.AboutWrapper id="about" data-aos="fade-right">
         <S.AboutInfo>
           <h1>
-            Sobre <span>Min</span>
+            Sobre <span>Mim</span>
           </h1>
           <h2>Desenvolvedor Front-End</h2>
           <p>
