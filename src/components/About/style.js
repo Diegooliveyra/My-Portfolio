@@ -11,7 +11,7 @@ export const AboutWrapper = styled.section`
   @media (max-width: 600px) {
     flex-direction: column;
     margin: 4rem 0;
-    padding: 4rem 0;
+    
   }
 
   @media (min-height: 1200px) {
@@ -36,17 +36,18 @@ export const AboutPhoto = styled.div`
   flex: 1 1 300px;
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-end;
 
   img {
-    max-width: 500px;
+    max-width: 450px;
   }
   @media (max-width: 640px) {
     margin-top: 2rem;
     justify-content: center;
 
   img {
-    max-width: 100%;
+    max-width: 100%
+    
   }
   }
 `;
