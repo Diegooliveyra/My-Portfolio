@@ -17,7 +17,7 @@ const Portifolio = ({ theme, setTheme }) => {
         data-aos="fade-right"
       >
         <h1>
-          Meu <span>Portifólio</span>
+          Meu <span>Portfólio</span>
         </h1>
         <S.PortifolioCards>
           <S.PortifolioCard>
